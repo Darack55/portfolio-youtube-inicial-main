@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="dark">
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img 
+              id="toggle-icon" 
+              src="assets/icons/moon.svg" 
+              alt="icon theme" 
+              class="toggle-theme__icon"
+          />
+          <p id="toggle-text" 
+          class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="assets/icons/gt.svg" alt="">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="assets/icons/us.svg" alt="">
+      </div>
+    </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+        
+        <div data-color="hsl(10, 84%, 56%)" class="colors__item colors__item--red"></div>
+        
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- PROFILE CARD-->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/profile.jpg" alt="">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Darack</h2>
+            <p class="card__subtitle no-margin" data-section="profile" data-value="rol">Front End Developer</p>
+          </div>
+          <div class="card__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:darack@gmail.com">
+                darack@gmail.com </a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:59692347">+50259692347 </a>
+            </div>
+            <p class="card__text" data-section="profile" data-value="description">
+              Más de 9 años de experiencia en
+              desarrollo web. Apasionado de las
+              nuevas tecnologías y en especial
+              del ecosistema CSS y JavaScript. <br />
+              Mi propósito es traladar la pasión por
+              enseñar tecnología WEB a todos aquellos
+              que quieran iniciar en este campo de
+              una forma actualizada, con buenas
+              prácticas y desde cero.
+            </p>
+          </div>
+        </article>
+      <article class="card card--experience">
+        <h2 class="card__title">EXPERIENCES</h2>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+        <p class="experience__time" data-section="experience" data-value="first-job-dates">
+              Enero 2018 - Enero 2019
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">Font End Developer</h3>
+            <p class="experience_description" data-section="experience" data-value="first-job-description">Desarrollador front-end experimentado
+            con habilidades en diseño y desarrollo de aplicaciones web interactivas
+            y atractivas. Conocimientos sólidos en HTML, CSS, JavaScript. Destacado 
+            en diseño responsivo. Apasionado por la optimización del rendimiento web, 
+            AJAX y herramientas de construcción. Capaz de trabajar colaborativamente 
+            en un entorno multicultural y comprometido con el aprendizaje y el desarrollo 
+            profesional continuo.</p>
+          </div>
+        </div>
+        <div class="experience">
+          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="Second-job-dates">
+              Febrero 2019 - Enero 2022
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="Second-job-title">Designer</h3>
+            <p class="experience_description" data-section="experience" data-value="Second-job-description">Diseñador gráfico experimentado
+            con habilidades en diseño de imagenes y fotografías. Conocimientos
+            sólidos en Photoshop. Capaz de trabajar colaborativamente en un 
+            entorno multicultural y comprometido con el aprendizaje y el 
+            desarrollo profesional continuo.</p>
+          </div>
+      </article>
+      <article class="card card--hobbies">
+        <h2 class="card__title">HOBBIES</h2>
+        <div class="card__image--container">
+        <img src="assets/images/hobbie.jpg" alt="Man on a bike">
+      </div>
+      <h3 class="hobbie__title">BIKING</h3>
+      <p class="card__text">El ciclismo es más que un deporte; es una forma de 
+      conectar con uno mismo, con otros y con el mundo que nos rodea. Cada salida 
+      es una oportunidad para descubrir algo nuevo y para sentir la emoción de la 
+      libertad sobre dos ruedas. Así que ajusta tu casco, sube a tu bicicleta y 
+      deja que el camino te lleve hacia nuevas y emocionantes aventuras.</p>
+      </article>
+    </section>
+      <section class="column column--rigth">
+        <article class="card">
+          <h2 class="card__title">Front End</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+            
+          <div class="skills__header">
+            <span class="skillss__start-level">0</span>
+            <span class="skillss__start-level">3</span>
+          </div>
+            <div class="skills">
+              <div class="skills__item">              
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">              
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">              
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">              
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+          </div>
+        </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Desing</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+          <div class="skills__header">
+            <span class="skillss__start-level">0</span>
+            <span class="skillss__start-level">3</span>
+          </div>
+            <div class="skills">
+              <div class="skills__item">              
+              <p class="skills__tech">Photoshop</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skills__item">              
+              <p class="skills__tech">Figma</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+          </div>
+        </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Technical</h2>
+          <small>Años de Experiencia</small>
+          <div class="skills">
+          <div class="skills__header">
+            <span class="skillss__start-level">0</span>
+            <span class="skillss__start-level">3</span>
+          </div>
+            <div class="skills">
+              <div class="skills__item">              
+              <p class="skills__tech">Software</p>
+              <div class="skills__bar skills__bar--80"></div>
+            </div>
+            <div class="skills__item">              
+              <p class="skills__tech">Hadware</p>
+              <div class="skills__bar skills__bar--70"></div>
+            </div>
+          </div>
+        </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#RESPONSIVE</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Este texto busca captar la atención de 
+            los visitantes al destacar los beneficios clave de Oracle y 
+            SQL Server, persuadiéndolos de la importancia de elegir la 
+            solución adecuada para la gestión de sus datos empresariales.</p>
+            <p class="card__text">Este texto busca captar la atención de 
+              los visitantes al destacar los beneficios clave de Oracle y 
+              SQL Server, persuadiéndolos de la importancia de elegir la 
+              solución adecuada para la gestión de sus datos empresariales.</p>
+              <div class="buttons">
+                <a href="#" class="button button--primary">Demo</a>
+                <a href="#" class="button button--ghost">Code</a>
+              </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#RESPONSIVE</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Este texto busca captar la atención de 
+            los visitantes al destacar los beneficios clave de Oracle y 
+            SQL Server, persuadiéndolos de la importancia de elegir la 
+            solución adecuada para la gestión de sus datos empresariales.</p>
+            <p class="card__text">Este texto busca captar la atención de 
+              los visitantes al destacar los beneficios clave de Oracle y 
+              SQL Server, persuadiéndolos de la importancia de elegir la 
+              solución adecuada para la gestión de sus datos empresariales.</p>
+              <div class="buttons">
+                <a href="#" class="button button--primary">Demo</a>
+                <a href="#" class="button button--ghost">Code</a>
+              </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+            <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">#HTML</span>
+              <span class="project__tag">#CSS</span>
+              <span class="project__tag">#JAVASCRIPT</span>
+              <span class="project__tag">#RESPONSIVE</span>
+            </div>
+            <h2 class="card__title">Landing Page</h2>
+            <p class="card__text">Este texto busca captar la atención de 
+            los visitantes al destacar los beneficios clave de Oracle y 
+            SQL Server, persuadiéndolos de la importancia de elegir la 
+            solución adecuada para la gestión de sus datos empresariales.</p>
+            <p class="card__text">Este texto busca captar la atención de 
+              los visitantes al destacar los beneficios clave de Oracle y 
+              SQL Server, persuadiéndolos de la importancia de elegir la 
+              solución adecuada para la gestión de sus datos empresariales.</p>
+              <div class="buttons">
+                <a href="#" class="button button--primary">Demo</a>
+                <a href="#" class="button button--ghost">Code</a>
+              </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
